@@ -32,7 +32,7 @@ To perform zero-shot image segmentation, use the following command:
 python run1.py --image INPUT_IMG_PATH --object OBJECTNAME(example: Lamp) --output OUTPUT_IMG_PATH 
 ```
 
-This script will segment the specified object (`office_chair`) in the given image and save the output to the specified location.
+This script will segment the specified object (`lamp`) in the given image and save the output to the specified location.
 
 ### Task 2: Generate New Camera View of Object
 
@@ -44,7 +44,7 @@ To generate a new camera view of an object, run the following command:
 python run2.py --image INPUT_IMG_PATH --object OBJECTNAME(example: Lamp) --output OUTPUT_IMG_PATH 
 ```
 
-This script processes the image to create a new view of the `lamp` and saves the result to the designated output directory.
+This script processes the image to create a new view of the `lamp` and saves the result to the designated output directory. It will also create a folder with the object name and it will have intermediate files , including the background image without the object , all these intermediate files are necessary in obtaining the output
 
 ## Support
 
