@@ -1,14 +1,14 @@
 
 
-```markdown
+
 
 
 This project focuses on two main tasks: zero-shot image segmentation and generating new camera views of objects. Follow the instructions below to set up and run the tasks.
 
 
 
-Before running the scripts, ensure you have Python in your system
-```
+Installation Steps
+
 
 ```bash
 conda create -n new_env python=3.9
@@ -48,14 +48,4 @@ This script processes the image to create a new view of the `lamp` and saves the
 
 For additional information or support, please contact the repository administrators or open an issue.
 
-## License
 
-This project is licensed under the [LICENSE NAME] - see the LICENSE file for details.
-```
-
-### Instructions:
-1. Replace `Project Title` with the actual title of your project.
-2. Fill in `[LICENSE NAME]` with the name of the license your project uses, if applicable. If you don't have a license, you might want to consider which type suits your project best or remove this section if it's not applicable.
-3. Double-check that all file paths and command line examples are correct for your project structure and intended use cases.
-
-This will provide your users with all the necessary information to get started with your project.
