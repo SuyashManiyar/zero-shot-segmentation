@@ -1,19 +1,17 @@
 
 
 ```markdown
-# Project Title
+
 
 This project focuses on two main tasks: zero-shot image segmentation and generating new camera views of objects. Follow the instructions below to set up and run the tasks.
 
-## Prerequisites
 
-Before running the scripts, ensure you have Python and pip installed on your system.
 
-## Installation
-
-First, install the required packages from Hugging Face's `transformers` library. Run the following command:
+Before running the scripts, ensure you have Python in your system
 
 ```bash
+conda create -n new_env python=3.9
+conda activate new_env
 pip install --upgrade -q git+https://github.com/huggingface/transformers
 ```
 
@@ -23,7 +21,7 @@ Next, install the additional required packages:
 pip install -r requirements.txt
 ```
 
-## Usage
+
 
 ### Task 1: Zero-Shot Image Segmentation
 
