@@ -29,7 +29,7 @@ pip install -r requirements.txt
 To perform zero-shot image segmentation, use the following command:
 
 ```bash
-python run1.py --image /home/vaibhavsharma/Desktop/rfp/unstructured_excels/segment_anything/inputs/office_chair.jpeg --object office_chair --output /home/vaibhavsharma/Desktop/rfp/unstructured_excels/segment_anything/task1_outputs/office_chair_segmented.jpg
+python run1.py --image INPUT_IMG_PATH --object OBJECTNAME(example: Lamp) --output OUTPUT_IMG_PATH 
 ```
 
 This script will segment the specified object (`office_chair`) in the given image and save the output to the specified location.
@@ -41,7 +41,7 @@ Before running task two make sure this model is downloaded and saved in the asse
 To generate a new camera view of an object, run the following command:
 
 ```bash
-python run2.py --image /home/vaibhavsharma/Desktop/rfp/unstructured_excels/segment_anything/inputs/lamp.jpeg --object lamp --output /home/vaibhavsharma/Desktop/rfp/unstructured_excels/segment_anything/task2_outputs/lamp_flipped.jpg
+python run2.py --image INPUT_IMG_PATH --object OBJECTNAME(example: Lamp) --output OUTPUT_IMG_PATH 
 ```
 
 This script processes the image to create a new view of the `lamp` and saves the result to the designated output directory.
