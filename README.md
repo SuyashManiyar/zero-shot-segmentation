@@ -36,6 +36,8 @@ This script will segment the specified object (`office_chair`) in the given imag
 
 ### Task 2: Generate New Camera View of Object
 
+Before running task two make sure this model is downloaded and saved in the assets folder [Model](https://drive.google.com/file/d/13iMRwZP8tqNcKispSxsepqIP7D5Z0w3l/view?usp=sharing)
+ the model is required to remove object from background image , and obtain a background image without the object
 To generate a new camera view of an object, run the following command:
 
 ```bash
