@@ -8,6 +8,7 @@ This project focuses on two main tasks: zero-shot image segmentation and generat
 
 
 Before running the scripts, ensure you have Python in your system
+```
 
 ```bash
 conda create -n new_env python=3.9
