@@ -5,7 +5,7 @@
 
 This project focuses on two main tasks: zero-shot image segmentation and generating new camera views of objects. Follow the instructions below to set up and run the tasks.
 
-
+This repository also consists of a report to look at both the process flow charts and some results and discussion
 
 Installation Steps
 
@@ -47,8 +47,5 @@ python run2.py --image INPUT_IMG_PATH --object OBJECTNAME(example: Lamp) --outpu
 
 This script processes the image to create a new view of the `lamp` and saves the result to the designated output directory. It will also create a folder with the object name and it will have intermediate files , including the background image without the object , all these intermediate files are necessary in obtaining the output
 
-## Support
-
-For additional information or support, please contact the repository administrators or open an issue.
 
 
