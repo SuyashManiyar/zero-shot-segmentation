@@ -13,6 +13,7 @@ Installation Steps
 ```bash
 conda create -n new_env python=3.9
 conda activate new_env
+cd zero-shot-segmentation
 pip install --upgrade -q git+https://github.com/huggingface/transformers
 ```
 
