@@ -107,7 +107,7 @@ def main():
     
     final_output=image_overlay(folder_name+'clean_background.jpg',folder_name+'cropped_horizontally_flipped.jpg',(bbox.xmin,bbox.ymin))
     final_output.save(output_path)
-
+    print("Image saved at output path")
 if __name__ == '__main__':
     main()
 
