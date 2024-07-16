@@ -49,6 +49,7 @@ def main():
     )
 
     plot_detections_mask(image_array, detections,save_name=output_path)
+    print("Image saved in output path")
     
     # print(bbox)
 
