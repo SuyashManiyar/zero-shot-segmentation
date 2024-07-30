@@ -65,7 +65,7 @@ MASK_THRESHOLD = 10                       # minimum pixel intensity for binary m
 USE_FORWARD_ENERGY = True                 # if True, use forward energy algorithm
 
 device = torch.device("cpu")
-model_path = "/home/vaibhavsharma/Desktop/rfp/unstructured_excels/object_remover/remove-photo-object/assets/big-lama.pt"
+model_path = "assets/big-lama.pt"
 model = torch.jit.load(model_path, map_location="cpu")
 model = model.to(device)
 model.eval()
